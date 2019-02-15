@@ -1,0 +1,140 @@
+.main-cont{
+    width: 600px;
+    height: 750px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #111111;
+}
+.con-sign-up{
+    width: 100%;
+    height: 100px;
+    color: lightseagreen;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+.psin{
+    padding-top: 25px;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.bdr{
+    border: 2px solid lightseagreen;
+    border-radius: 150%;
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 2px 2px 10px grey;
+}
+.frm{
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+    padding-top: 60px;
+    position: relative;
+}
+.user-name, .user-email, .user-pw, .user-cpw{
+    width: 100%;
+    height: 100px;
+    margin-top: -20px;
+    color: lightseagreen;
+    font-weight: bold;
+    position: relative;
+}
+.un{
+    width: 50%;
+    height: 25px;
+    margin-left: 5%;
+    position: relative;
+    font-size: 20px;
+}
+.sun{
+    position: absolute;
+    bottom: 0;
+}
+.nm-input{
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    margin-top: -10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: inset 0 0 5px #000000;
+    padding-left: 40px;
+}
+.imgu{
+    position: absolute;
+    left: 45px;
+    width: 20px;
+    height: 20px;
+    color: lightseagreen;
+}
+.imgem{
+    position: absolute;
+    left: 45px;
+    width: 20px;
+    height: 20px;
+    top: 45px;
+    color: lightseagreen;
+}
+.btn-su{
+    width: 95%;
+    height: 50px;
+}
+.btn-snup{
+    width: 150px;
+    height: 50px;
+    float: right;
+    font-size: 20px;
+    padding: 5px;
+    background:lightseagreen;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 2px 10px #111111;   
+}
+.resl{
+    position: absolute;
+    width: 600px;
+    height: 750px;
+    box-shadow: 0px 0px 15px #111111;    
+    background:#E2F3F3;
+    display: none;
+    top:8px;
+    left: 8px;
+    border-radius: 10px 10px 10px 10px;
+}
+.nm-rinput{
+    font-size: 25px;
+}
+.btm-mem{
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    background: repeating-linear-gradient( 
+        -45deg,
+        #B9F3EF,
+        #91D4CF 20px,
+        #ECEBEB 20px,
+        #E7E7E7 40px);
+    background-color: rgba(32, 178, 168, 0.96);
+    display: inline-block;
+}
+.p-mem{
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left:200px;
+    padding-top:  15px;
+}
+.gbtn{
+    font-size: 25px;
+    padding: 5px;
+    color: #06857C; 
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: #DFDDDD;
+}
