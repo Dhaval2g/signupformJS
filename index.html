@@ -11,13 +11,13 @@
     <div class="main-cont">
         <div class="con-sign-up"><p class="psin">Sign up</p></div>
         <div class="bdr"></div>
-        <form class="frm" id="ifrm">
-            <div class="user-name"><p class="un"><span class="sun">Your UserName</span> </p><input class="nm-input" type="text" id="val-nm"><img src="PNG\user.png" class="imgu"></div>
-            <div class="user-email"><p class="un"><span class="sun">Your email</span> </p><input class="nm-input" type="text" id="val-email"></p><img src="PNG\envelop.png" class="imgem"></div>
-            <div class="user-pw"><p class="un"><span class="sun">Your Password</span> </p><input class="nm-input" type="password" id="val-pw"></p><img src="PNG\key.png" class="imgem"></div>
-            <div class="user-cpw"><p class="un"><span class="sun">Please confirm your password</span> </p><input class="nm-input" type="password" id="val-cpw"></p><img src="PNG\key.png" class="imgem"></div>
+        <form class="frm" id="ifrm" name="vfrm">
+            <div class="user-name"><p class="un"><span class="sun">Your UserName</span> </p><input class="nm-input" type="text" id="val-nm" name="username"><img src="PNG\user.png" class="imgu"></div>
+            <div class="user-email"><p class="un"><span class="sun">Your email</span> </p><input class="nm-input" type="text" id="val-email" name="useremail"></p><img src="PNG\envelop.png" class="imgem"></div>
+            <div class="user-pw"><p class="un"><span class="sun">Your Password</span> </p><input class="nm-input" type="password" id="val-pw" name="userpw"></p><img src="PNG\key.png" class="imgem"></div>
+            <div class="user-cpw"><p class="un"><span class="sun">Please confirm your password</span> </p><input class="nm-input" type="password" id="val-cpw" name="usercpw"></p><img src="PNG\key.png" class="imgem"></div>
         </form>
-        <div class="btn-su"><input type="button" class="btn-snup" onclick="showMe(), hidD()" value="SIGN UP"></div>
+        <div class="btn-su"><input type="button" class="btn-snup" onclick="validme(), showMe(), hidD()" value="SIGN UP"></div>
         <div class="btm-mem">
             <div>
                 <p class="p-mem">Alredy a Member?</p><input class="gbtn" type="button" value="Go and Login">
